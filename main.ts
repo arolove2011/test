@@ -82,8 +82,8 @@ function giveIntroduction () {
         . . . . . . . . . . . . . . . . 
         . . . . . . . . . . . . . . . . 
         `)
-    showInstruction("Move with the left and right buttons.")
-    showInstruction("Jump with the up or A button.")
+    showInstruction("Move with the left and right buttons!")
+    showInstruction("Jump with the up or A button!")
     showInstruction("Double jump by pressing jump again.")
 }
 controller.up.onEvent(ControllerButtonEvent.Pressed, function () {
